@@ -31,4 +31,4 @@ Para ejecutar el programa se necesita contar con los siguientes elementos:
 | Memoria RAM | 2 GB como mínimo recomendado para el entorno de desarrollo. |
 | Archivos | Código fuente `DetectorSHA256.java`. |
 
-![hola](Almacenamiento interno/Pictures/WhatsApp/IMG-20261123-WA0076.jpg)
+! [hola] (Almacenamiento interno/Pictures/WhatsApp/IMG-20261123-WA0076.jpg)
