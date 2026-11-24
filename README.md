@@ -16,7 +16,7 @@ Funciones principales
 •	Ejecutar pruebas automáticas del programa.
 •	Salir del programa.
 
-2. ¿Qué se necesita para ejecutar el programa?
+# 2. ¿Qué se necesita para ejecutar el programa?
 Para ejecutar el programa se necesita contar con los siguientes elementos:
 
 ## Requisitos del sistema
