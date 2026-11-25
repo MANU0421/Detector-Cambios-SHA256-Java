@@ -1,79 +1,93 @@
-Proyecto: Detector de cambios en archivos con SHA-256.
-Herramienta utilizada: ChatGPT.
-Registro 1. Análisis técnico del código fuente
-Tipo de registro: Análisis técnico.
+# Bitácora de uso de Inteligencia Artificial
 
-Instrucción proporcionada a la IA:
+## Registro 1. Análisis técnico del código fuente
 
-Analiza el código fuente del programa Detector de cambios en archivos con SHA-256. Identifica la función de sus métodos principales, las bibliotecas utilizadas y la relación entre sus componentes. Explica cómo se organiza el programa y cuál es el propósito de cada una de sus funciones.
+**Tipo de registro:** Revisión del código.
 
-Aportación de la IA: Explicó la estructura del programa y la función de los métodos principales, facilitando la comprensión de su funcionamiento.
+**Instrucción proporcionada a la IA:** Analizar el código fuente del programa Detector de cambios en archivos con SHA-256 y explicar su funcionamiento general.
 
-Verificación del equipo: Se revisaron los métodos directamente en el código para confirmar que las explicaciones fueran correctas.
+**Aportación de la IA:** La IA explicó la estructura del programa, sus principales métodos y las funciones que realiza cada opción del menú.
 
-Resultado: Se comprendió la organización y funcionamiento general del programa.
+**Verificación del equipo:** Se revisó el código fuente y se compararon las explicaciones con las instrucciones implementadas en el programa.
 
-Registro 2. Evaluación del algoritmo SHA-256
-Tipo de registro: Análisis criptográfico.
+**Resultado:** Se obtuvo una mejor comprensión de la estructura y funcionamiento del sistema.
 
-Instrucción proporcionada a la IA:
+---
 
-Explica cómo se implementa SHA-256 en el programa, cómo se generan las huellas digitales y cómo se utilizan para detectar modificaciones en los archivos. Describe también la importancia de este algoritmo para garantizar la integridad de la información.
+## Registro 2. Evaluación del algoritmo SHA-256
 
-Aportación de la IA: Explicó el proceso de generación de huellas digitales y la comparación de resultados para identificar cambios.
+**Tipo de registro:** Análisis criptográfico.
 
-Verificación del equipo: Se revisó el método calcularSHA256() y se comprobó que generara huellas de 64 caracteres hexadecimales.
+**Instrucción proporcionada a la IA:** Explicar cómo funciona SHA-256 y cómo se utiliza para identificar cambios en los archivos.
 
-Resultado: Se comprendió la importancia de SHA-256 en la detección de modificaciones.
+**Aportación de la IA:** La IA explicó que SHA-256 genera una huella digital única a partir del contenido de un archivo. Cuando el contenido cambia, también cambia su huella.
 
-Registro 3. Almacenamiento y persistencia de información
-Tipo de registro: Análisis de almacenamiento de datos.
+**Verificación del equipo:** Se revisó el método `calcularSHA256()` y se realizaron comparaciones entre las huellas de archivos.
 
-Instrucción proporcionada a la IA:
+**Resultado:** Se comprendió la importancia del algoritmo para detectar modificaciones en los archivos.
 
-Identifica cómo el programa almacena las huellas digitales y los resultados de las verificaciones. Explica la función del manifiesto y del archivo de historial, así como la manera en que se recupera la información cuando el programa vuelve a ejecutarse.
+---
 
-Aportación de la IA: Describió la función de los archivos manifiesto_sha256.properties e historial_sha256.txt y los mecanismos utilizados para guardar la información.
+## Registro 3. Almacenamiento y persistencia de información
 
-Verificación del equipo: Se revisaron los métodos de lectura y escritura y se comprobó la creación de los archivos correspondientes.
+**Tipo de registro:** Revisión del almacenamiento de datos.
 
-Resultado: Se identificó cómo se conserva la información entre diferentes ejecuciones.
+**Instrucción proporcionada a la IA:** Explicar cómo se guardan los registros de los archivos y los resultados de las verificaciones.
 
-Registro 4. Manejo de errores y excepciones
-Tipo de registro: Evaluación de errores.
+**Aportación de la IA:** La IA identificó el uso de `manifiesto_sha256.properties` para almacenar las rutas y huellas digitales, así como `historial_sha256.txt` para conservar los resultados de las verificaciones.
 
-Instrucción proporcionada a la IA:
+**Verificación del equipo:** Se revisó la creación y actualización de ambos archivos durante la ejecución del programa.
 
-Examina las validaciones del programa e identifica cómo responde ante rutas inexistentes, entradas vacías, archivos no registrados y problemas de lectura. Explica la función de las excepciones utilizadas y propone pruebas para comprobar su funcionamiento.
+**Resultado:** Se identificó cómo el sistema conserva la información para futuras consultas.
 
-Aportación de la IA: Identificó los mecanismos de validación existentes y propuso diferentes escenarios para evaluar el manejo de errores.
+---
 
-Verificación del equipo: Se revisaron los métodos de validación y se realizaron pruebas con rutas incorrectas y archivos no registrados.
+## Registro 4. Manejo de errores y excepciones
 
-Resultado: Se comprobó el comportamiento del programa ante diferentes situaciones de error.
+**Tipo de registro:** Evaluación del manejo de errores.
 
-Registro 5. Diseño de pruebas de software
-Tipo de registro: Planificación de pruebas.
+**Instrucción proporcionada a la IA:** Identificar posibles errores que podrían presentarse al utilizar el programa y proponer pruebas para comprobar su comportamiento.
 
-Instrucción proporcionada a la IA:
+**Aportación de la IA:** La IA propuso probar rutas inexistentes, campos vacíos y archivos que todavía no estuvieran registrados.
 
-Diseña un conjunto de pruebas para evaluar el funcionamiento del programa, incluyendo el registro de archivos, detección de modificaciones, archivos vacíos, archivos grandes y situaciones de error. Describe los pasos y resultados esperados de cada prueba.
+**Verificación del equipo:** Se revisaron las validaciones del código y se realizaron las pruebas correspondientes para observar las respuestas del programa.
 
-Aportación de la IA: Propuso diferentes escenarios de prueba y explicó cómo evaluar los resultados obtenidos.
+**Resultado:** Se identificaron situaciones que permiten evaluar la respuesta del sistema ante entradas incorrectas.
 
-Verificación del equipo: Se ejecutaron las pruebas desde Visual Studio Code y se compararon los resultados con los comportamientos esperados.
+---
 
-Resultado: Se establecieron pruebas para evaluar el funcionamiento y la confiabilidad del programa.
+## Registro 5. Diseño de pruebas de software
 
-Registro 6. Análisis de seguridad y limitaciones
-Tipo de registro: Evaluación de seguridad informática.
+**Tipo de registro:** Planeación de pruebas.
 
-Instrucción proporcionada a la IA:
+**Instrucción proporcionada a la IA:** Proponer casos de prueba para comprobar que las funciones principales del programa trabajen correctamente.
 
-Analiza las capacidades y limitaciones del programa respecto a la seguridad de los archivos. Explica qué sucede si se modifica un archivo y también su manifiesto, diferencia integridad de autenticidad y proporciona recomendaciones para fortalecer el sistema.
+**Aportación de la IA:** La IA propuso pruebas con archivos pequeños, archivos vacíos, archivos modificados y archivos de mayor tamaño, además de verificar archivos sin cambios.
 
-Aportación de la IA: Explicó que SHA-256 permite detectar modificaciones, pero que el manifiesto también podría alterarse, por lo que el sistema tiene limitaciones de seguridad.
+**Verificación del equipo:** Se ejecutaron las pruebas disponibles en el programa y se revisaron los resultados obtenidos.
 
-Verificación del equipo: Se revisó el mecanismo de almacenamiento de las huellas y se comprobó que no existe una protección adicional del manifiesto.
+**Resultado:** Se estableció un conjunto de pruebas para evaluar el funcionamiento del sistema en diferentes situaciones.
 
-Resultado: Se identificaron las limitaciones del programa y posibles mejoras de seguridad.
+---
+
+## Registro 6. Análisis de seguridad y limitaciones
+
+**Tipo de registro:** Evaluación de seguridad.
+
+**Instrucción proporcionada a la IA:** Analizar la utilidad de SHA-256 para detectar modificaciones y señalar las limitaciones del programa.
+
+**Aportación de la IA:** La IA explicó que SHA-256 permite identificar cambios en el contenido de los archivos, pero que el programa no impide que estos sean modificados. También señaló que el manifiesto debe protegerse para evitar alteraciones no autorizadas.
+
+**Verificación del equipo:** Se revisaron las funciones implementadas y se compararon con las recomendaciones proporcionadas.
+
+**Resultado:** Se identificaron las ventajas y limitaciones del sistema, así como posibles mejoras de seguridad.
+
+---
+
+# Reflexión final
+
+La inteligencia artificial fue una herramienta de apoyo durante el desarrollo y análisis del programa Detector de cambios en archivos con SHA-256. Permitió comprender mejor el funcionamiento del código, conocer la utilidad del algoritmo criptográfico, identificar posibles errores y proponer pruebas para evaluar el sistema.
+
+Sin embargo, las respuestas de la IA no se tomaron como resultados definitivos. El equipo revisó el código fuente, comprobó las funciones implementadas y verificó el comportamiento del programa mediante su ejecución. Esto permitió distinguir entre las características que realmente tiene el sistema y las recomendaciones que podrían considerarse como mejoras futuras.
+
+En conclusión, la inteligencia artificial facilitó el proceso de análisis y documentación, pero la responsabilidad de comprobar que la información fuera correcta y que el programa funcionara adecuadamente correspondió al equipo de trabajo.
