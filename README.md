@@ -8,7 +8,7 @@ Cuando se registra un archivo, el programa calcula su huella SHA-256 y la guarda
 Si ambas huellas coinciden, significa que el archivo no ha presentado modificaciones. Si son diferentes, significa que su contenido ha cambiado.
 Además, el programa permite consultar los archivos registrados, visualizar un historial de verificaciones, conocer cómo funciona SHA-256 y ejecutar pruebas automáticas para comprobar su funcionamiento.
 
-Funciones principales 
+Funciones principales
 •	Crear y guardar la huella SHA-256 de un archivo.
 •	Verificar si un archivo ha cambiado.
 •	Mostrar los archivos registrados y sus huellas.
