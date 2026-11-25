@@ -9,13 +9,14 @@ Si ambas huellas coinciden, significa que el archivo no ha presentado modificaci
 Además, el programa permite consultar los archivos registrados, visualizar un historial de verificaciones, conocer cómo funciona SHA-256 y ejecutar pruebas automáticas para comprobar su funcionamiento.
 
 Funciones principales
-**•**	Crear y guardar la huella SHA-256 de un archivo.
-**•**	Verificar si un archivo ha cambiado.
-**•**	Mostrar los archivos registrados y sus huellas.
-**•**	Consultar el historial de verificaciones.
-**•**	Explicar cómo funciona SHA-256.
-**•**	Ejecutar pruebas automáticas del programa.
-**•**	Salir del programa.
+
+** • **	Crear y guardar la huella SHA-256 de un archivo.
+** • **	Verificar si un archivo ha cambiado.
+** • **	Mostrar los archivos registrados y sus huellas.
+** • **	Consultar el historial de verificaciones.
+** • **	Explicar cómo funciona SHA-256.
+** • **	Ejecutar pruebas automáticas del programa.
+** • **	Salir del programa.
 
 # 2. ¿Qué se necesita para ejecutar el programa?
 Para ejecutar el programa se necesita contar con los siguientes elementos:
